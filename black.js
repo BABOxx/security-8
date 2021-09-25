@@ -27,14 +27,14 @@ const queue = new Map();
 const imdb = require("imdb-api");
 const cooldown = new Set();
 const cdtime = 5;
-const prefix = "b!"
+const prefix = "r/"
 let channelc = JSON.parse(fs.readFileSync('./channelc.json' , 'utf8'));
 let channeld = JSON.parse(fs.readFileSync('./channeld.json' , 'utf8'));
 let antiban = JSON.parse(fs.readFileSync('./antiban.json' , 'utf8'));
 let antiroleD = JSON.parse(fs.readFileSync('./antiroleD.json' , 'utf8'));
 let antiroleC = JSON.parse(fs.readFileSync('./antiroleC.json' , 'utf8'));
 let antikick = JSON.parse(fs.readFileSync('./antikick.json' , 'utf8'));
-client.login("")
+client.login("ODkxMDA3MjA4MDM5NTQyODE0.YU4FIA.2ePKw4GXV-VYW-es4GiH9IH3TtM")
 client.on("ready", () => {
   console.log("ALLAH AKBAR");
   console.log("♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔");
